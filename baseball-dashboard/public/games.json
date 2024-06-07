@@ -1,0 +1,83 @@
+{
+  "get": "games",
+  "parameters": {
+    "id": "1"
+  },
+  "errors": [],
+  "results": 1,
+  "response": [
+    {
+      "id": 1,
+      "date": "2020-02-21T18:05:00+00:00",
+      "time": "18:05",
+      "timestamp": 1582308300,
+      "timezone": "UTC",
+      "week": null,
+      "status": {
+        "long": "Finished",
+        "short": "FT"
+      },
+      "country": {
+        "id": 1,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "league": {
+        "id": 1,
+        "name": "MLB",
+        "type": "League",
+        "logo": "https://media.api-sports.io/baseball/leagues/1.png",
+        "season": 2020
+      },
+      "teams": {
+        "home": {
+          "id": 5,
+          "name": "Boston Red Sox",
+          "logo": "https://media.api-sports.io/baseball/teams/5.png"
+        },
+        "away": {
+          "id": 43,
+          "name": "Northeastern",
+          "logo": "https://media.api-sports.io/baseball/teams/43.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "hits": 6,
+          "errors": 2,
+          "innings": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 3,
+            "7": null,
+            "8": null,
+            "9": null,
+            "extra": null
+          },
+          "total": 3
+        },
+        "away": {
+          "hits": 4,
+          "errors": 0,
+          "innings": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": null,
+            "9": null,
+            "extra": null
+          },
+          "total": 0
+        }
+      }
+    }
+  ]
+}
