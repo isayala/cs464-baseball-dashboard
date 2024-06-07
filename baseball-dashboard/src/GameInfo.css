@@ -1,0 +1,51 @@
+.game-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.game-info h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.team-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.team-logos img {
+  width: 100px;
+  height: 100px;
+  margin: 0 20px;
+}
+
+.scores,
+.innings {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.scores h3,
+.innings h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.scores p,
+.innings p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #777;
+}

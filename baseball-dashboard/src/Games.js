@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./Games.css";
+import { Link } from "react-router-dom";
 
 const Games = () => {
   const [Games, setGames] = useState([]);
@@ -20,8 +21,7 @@ const Games = () => {
               date: currentDate,
             },
             headers: {
-              "X-RapidAPI-Key":
-                "eb70f1f032mshe1d9dc7c83995d6p12852fjsn77a760e46065",
+              "x-rapidapi-key": process.env.React_App_API_KEY,
               "X-RapidAPI-Host": "api-baseball.p.rapidapi.com",
             },
           }
@@ -45,7 +45,11 @@ const Games = () => {
       <h1>MLB Games Scheduled for Today</h1>
       <div className="games-grid">
         {Games.map((game) => (
-          <div key={game.id} className="game-card">
+          <Link
+            to={`/game/${game.teams.home.id}-${game.teams.away.id}`}
+            key={game.id}
+            className="game-card"
+          >
             <div className="game-info">
               <div className="teams">
                 <div className="team">
@@ -70,7 +74,7 @@ const Games = () => {
                 Time: {new Date(game.timestamp * 1000).toLocaleTimeString()}
               </p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

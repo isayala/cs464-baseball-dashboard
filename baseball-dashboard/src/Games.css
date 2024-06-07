@@ -9,6 +9,11 @@
   justify-content: center;
 }
 
+.game-card:hover {
+  background-color: #e8e6e6;
+  border-radius: 4px;
+}
+
 .game-card {
   background: #f8f8f8;
   border-radius: 8px;
@@ -16,6 +21,7 @@
   padding: 20px;
   width: 300px;
   text-align: center;
+  text-decoration: none;
 }
 
 .game-info {

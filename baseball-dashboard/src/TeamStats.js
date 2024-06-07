@@ -22,8 +22,7 @@ const TeamStats = () => {
           team: teamId,
         },
         headers: {
-          "X-RapidAPI-Key":
-            "eb70f1f032mshe1d9dc7c83995d6p12852fjsn77a760e46065",
+          "x-rapidapi-key": process.env.React_App_API_KEY,
           "X-RapidAPI-Host": "api-baseball.p.rapidapi.com",
         },
       };
@@ -88,8 +87,8 @@ const TeamStats = () => {
 
   if (error) return <div>Error: {error}</div>;
 
-  if (loading) return <div>Loading...</div>;
-  if (!teamStats) return <div>No team statistics available</div>;
+  if (loading) return <p>Loading...</p>;
+  if (!teamStats) return <p>No team statistics available</p>;
 
   const { team, games, points } = teamStats;
 
