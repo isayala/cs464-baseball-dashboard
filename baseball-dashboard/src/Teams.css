@@ -1,0 +1,105 @@
+/*
+.teams-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.teams-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-card {
+  background: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.team-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-logo {
+  width: 100px;
+  height: 100px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+*/
+
+.teams {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.american {
+  margin: 10px;
+}
+
+.national {
+  margin: 10px;
+}
+
+/* Card styles */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  width: 300px;
+  height: 260px;
+}
+
+/* Division title */
+.card h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* List of teams */
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Each team item */
+.card li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* Team logo */
+.card img {
+  width: 30px; /* Make the logo smaller */
+  height: auto;
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 10px;
+  padding: 1px;
+}
+
+/* Team name */
+.card li span {
+  font-size: 1.2em;
+  color: #555;
+}

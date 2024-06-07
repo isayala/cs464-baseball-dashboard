@@ -1,0 +1,91 @@
+{
+  "get": "teams/statistics",
+  "parameters": {
+    "league": "1",
+    "team": "5",
+    "season": "2019"
+  },
+  "errors": [],
+  "results": 5,
+  "response": {
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 1,
+      "name": "MLB",
+      "type": "League",
+      "logo": "https://media.api-sports.io/baseball/leagues/1.png",
+      "season": 2019
+    },
+    "team": {
+      "id": 5,
+      "name": "Boston Red Sox",
+      "logo": "https://media.api-sports.io/baseball/teams/5.png"
+    },
+    "games": {
+      "played": {
+        "home": 94,
+        "away": 94,
+        "all": 188
+      },
+      "wins": {
+        "home": {
+          "total": 44,
+          "percentage": "0.468"
+        },
+        "away": {
+          "total": 49,
+          "percentage": "0.521"
+        },
+        "all": {
+          "total": 93,
+          "percentage": "0.495"
+        }
+      },
+      "loses": {
+        "home": {
+          "total": 50,
+          "percentage": "0.532"
+        },
+        "away": {
+          "total": 44,
+          "percentage": "0.468"
+        },
+        "all": {
+          "total": 94,
+          "percentage": "0.500"
+        }
+      }
+    },
+    "points": {
+      "for": {
+        "total": {
+          "home": 522,
+          "away": 496,
+          "all": 1018
+        },
+        "average": {
+          "home": "5.6",
+          "away": "5.3",
+          "all": "5.4"
+        }
+      },
+      "against": {
+        "total": {
+          "home": 514,
+          "away": 470,
+          "all": 984
+        },
+        "average": {
+          "home": "5.5",
+          "away": "5.0",
+          "all": "5.2"
+        }
+      }
+    }
+  }
+}

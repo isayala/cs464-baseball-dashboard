@@ -1,0 +1,32 @@
+.navbar {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: lightblue;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.navbar ul li a {
+  display: block;
+  width: 100%;
+  padding: 15px 1em;
+  text-decoration: none;
+  font-weight: lighter;
+  color: #333;
+}
+
+.navbar ul li a:hover {
+  background-color: lightyellow;
+}
