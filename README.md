@@ -1,4 +1,4 @@
-# cs466-baseball-dashboard
+# cs464-baseball-dashboard
 ### References
 - API documentation: https://api-sports.io/documentation/baseball/v1#section/Authentication/API-SPORTS-Account
   
